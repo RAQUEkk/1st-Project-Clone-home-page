@@ -1,0 +1,55 @@
+/* Estilo predeterminado*/
+*{
+    margin: 0;
+    padding: 0;
+    background-image: url(./images/baackground.png) ;
+}
+
+header {
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    background: color #0F1320;
+}
+
+/* Main */
+.gallery {
+    width: 320px;
+}
+
+.slider-events {
+    width: 680px;
+    height: auto;
+    margin: 0;
+    overflow: hidden;
+}
+
+.slider-events ul {
+    display: flex;
+    padding: 0;
+    width: 500%;
+    animation: slide 20s infinite;
+}
+
+.slider-events li {
+    list-style: none;
+    width: 100%;
+}
+
+@keyframes slide {
+    0% {margin-left: 0%;}
+    15% {margin-left: 0%;}
+
+    20% {margin-left: -100%;}
+    35% {margin-left: -100%;}
+
+    40% {margin-left: -200%;}
+    55% {margin-left: -200%;}
+
+    60% {margin-left: -300%;}
+    75% {margin-left: -300%;}
+
+    80% {margin-left: -400%;}
+    95% {margin-left: -400%;}
+}
+
