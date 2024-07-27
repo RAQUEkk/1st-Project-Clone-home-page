@@ -3,12 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/icon-game.jpeg" type="image/x-icon">
     <title>Mobile Legends: Bang Bang</title>
 </head>
 
 <body>
+<header>
+        <nav id="left-header">
+            <a href="https://m.mobilelegends.com/"><img id="logo-game" src="./images/I.header/game-logo-color-MLBB.png" alt="Logo del juego con hipervinculo a la página original"></a>
+            <img id="icon-global-language" src="./images/I.header/icon-global-language.svg" alt="icono ilustrativo para el idioma de la página"></img>
+            <form method="post">
+                <select id="language">
+                    <option value="English">EN</option>
+                    <option value="Indonesian">ID</option>
+                </select>
+            </form>
+            <button>Login</button>
+        </nav>
 
+        <nav id="right-header">
+            <a href="#"><img src="./images/I.header/download-app-store.png" alt="recuadro para la descarga del juego en app store"></a>
+            <a href="#"><img src="./images/I.header/download-google-play.png" alt="recuadro para la descarga del juego en google play"></a>
+            <a href="#"><img src="./images/I.header/menu-tres-barras.jpg" alt="icono para desplegar un menu lateral"></a>
+        </nav>
+    </header>
+    <span id="limit-header"></span>
+
+    <main>
+        <section class="gallery">
+            <div class="slider-events">
+                <ul>
+                    <li><img src="./images/II.main/0-animation-revamp-phoevus.jpg" alt=""></li>
+                    <li><img src="./images/II.main/1-revamped-phoveus.jpg" alt=""></li>
+                    <li><img src="./images/II.main/2-new-hero-zhuxin.jpg" alt=""></li>
+                    <li><img src="./images/II.main/3-coupon-pass.jpg" alt=""></li>
+                    <li><img src="./images/II.main/4-new-cinematic-parte2.jpg" alt=""></li>
+                    <li><img src="./images/II.main/5-new-cinematic-parte1.jpg" alt=""></li>
+                </ul>
+            </div>
+
+            <div class="lateral-images">
+                <div class="images-1st-row">
+                    <a href="#"><img src="./images/II.main/a-hero-ranking.jpg" alt=""></a>
+                        <p class="top">Hero Ranking</p>
+                        <p class="normal">Hero strength ranking</p>
+                    <a href="#"><img src="./images/II.main/b-payment.jpg" alt=""></a>
+                        <P class="top">Payment</P>
+                        <P class="normal">Recharge methods</P>
+                </div>
+
+                <div class="images-2nd-row">
+                    <a href="#"><img src="./images/II.main/c-redeem.jpg" alt=""></a>
+                        <p class="top">Redeem</p>
+                        <p class="normal">Redeem game rewards</p>
+                    <a href="#"><img src="./images/II.main/d-fan-art.jpg" alt=""></a>
+                        <p class="top">Fan Art</p>
+                        <p class="normal">Player creates designs</p>
+                </div>
+            </div>
+        </section>
+    </main>
     
 
 </body>
